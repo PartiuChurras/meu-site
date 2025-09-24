@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!DOCTYPE html>
+    <title>Revista Msc</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#edicoesdarevista">Edições</a></li>
+            <li><a href="#naoordenado">Lista Não Ordenada</a></li>
+            <li><a href="#glossario">Glossario</a></li>
+            <li><a href="#Tabela">Tabela</a></li>
+        </ul>
+    </nav>
+
+    <header>
+
+        <h1> Tutoriais Msc </h1>
+        <h2> Aprenda a jogar Msc</h2>
+
+        <nav>
+            <hr>
+            <ul>
+                <li> <a href="#">Montagem do motor</a> </li>
+                <li> <a href="#">Montagem da Suspensão</a> </li>
+                <li> <a href="#">Curiosidades</a> </li>
+            </ul>
+            <hr>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <article>
+
+                <h3> Possiveis Localizações da Maleta sofreram alterações as Localizações antigas <s>morreram</s>!!</h3>
+                <p> As <mark>Localizações da foram alteradas</mark> após a última atualização<br>
+                    agora a maleta do<abbr title="Jouko"> Bebão </abbr>milionario podem aparecer dentro da água!</p>
+
+            </article>
+            <article>
+
+                <aside>
+                    <p>Nas primeiras versões do <abbr title="My Summer Car">Msc<sup>2</sup><sub>3</sub></abbr> Jouko, nosso querido Bebão <br>
+                        poderia aparecer no Bar do Teimo bebendo suas <u>queridas cervejas</u>, e do completo nada
+                        <mark>começar uma briga</mark> <br>
+                        algo sem polimento, apenas <i>socos simples</i>. E mais uma Curiosidade... Os socos
+                        <strong>matavam</strong> o player.
+
+                        BR</p>
+                </aside>
+
+            </article>
+        </section>
+    </main>
+
+    <hr>
+
+    <section id="edicoesdarevista">
+        <ol start="10"> 
+            <li>Lista das peças do Motor Satsuma</li>
+            <li>Lista dos trabalhos disponíveis</li>
+            <li>Melhores tutoriais de incio</li>
+            <li>Melhores caminhos</li>
+            <li>Dicas na montagem do Satsuma</li>
+        </ol>
+    </section>
+    <hr>
+    <section id="naoordenado">
+        <ul type="square">
+            <li>Curiosidade Msc</li>
+            <li>Npcs Msc</li>
+            <li>Rodas Msc</li>
+            <li>Melhor desempenho Motor Msc</li>
+            <li>Sobre a prisão Msc</li>
+        </ul>
+    </section>
+
+    <section id="glossario">
+        <dl>
+            <dt>Carros</dt>
+            <dd>Alguns Npcs tem carro Ex; Doido do carro Amarelo</dd>
+            <dt>Fleetari</dt>
+            <dd>Fleetari é o mêcanico de Msc</dd>
+            <dt>Namorada</dt>
+            <dd>Se você ver o doido do carro amarelo morto dentro do carro <br> sequestre a Susy, ela vira sua namorada!</dd>
+        </dl>
+    </section>
+
+    <section id="Tabela">
+
+        <table border="3">
+            <caption>Autores da Revista</caption>
+            <tr>
+                <thead>
+                        <th scope="col">Nome do Autor</th>
+                        <th scope="col">Especialidade</th>
+                        <th scope="col">Idade</th>
+                </thead>
+                <tbody>
+                        <th scope="row">Pedro</th>
+                        <th scope="row">Mêcanico</th>
+                        <th scope="row">45</th>
+                </tbody>
+                <tbody>
+                        <th scope="row">João</th>
+                        <th scope="row">Professor</th>
+                        <th scope="row">27</th>
+                </tbody>
+                <tbody>
+                        <th scope="row">Luiz</th>
+                        <th scope="row">Médico</th>
+                        <th scope="row">56</th>
+                </tbody>
+                <tfoot>
+                        <td colspan="3" align="center"> 3 Autores</td>
+                </tfoot>
+            </tr>
+        </table>
+    </section>
+    <br>
+    <br>
+
+    <form action="#" method="POST" enctype="multipart/form-data" autocomplete="on"> 
+        <fieldset>
+            <legend>Informações pessoas</legend>
+            <label for="name">Seu Nome</label>
+            <input type="text" required maxlength="50" placeholder="Digite seu nome completo"> <br>
+
+            <label for="datadenascimento">Data de Nascimento</label>
+            <input type="date" required> <br>
+
+            <label for="email">Seu Email</label>
+            <input type="email" required placeholder="Digite seu e-mail"> <br>
+
+            <label for="password">Sua Senha</label>
+            <input type="password" required minlength="6" placeholder="Crie sua senha"> <br>
+
+            <hr>
+
+            <label for="interesse">Lista de Interesses</label>
+            <select name="genedodeinteresse" id=" ">
+                <option value="tecnologia">tecnologia</option>
+                <option value="programacao">Programação</option>
+                <option value="curiosidades">Curiosidades</option>
+                <option value="jogos">Jogos</option>
+            </select> <br>
+
+            <label for="notificacao">Receber notificações pelo email?</label>
+                <input type="radio" name="notificacao" value="sim"> Sim
+                <input type="radio" name="notificacao" value="nao"> Não
+            <br>
+
+            <label for="foto">Foto de Perfil</label>
+                <input type="file" accept="imagens/*">
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <label for="comentario">Comentário não obrigatório.</label>
+            <textarea rows="4" cols="40" placeholder="Escreva sua opinião caso desejar" required></textarea>
+
+            <br>
+            <br>
+            
+            <button type="submit">Enviar Cadastro</button>
+            <button type="reset">Limpar Formulário</button>
+
+        </fieldset>
+    </form>
+
+
+    <hr>
+    <footer>
+        <p>&copy; Tutorias de <abbr title="My Summer Car">Msc</abbr>.</p>
+    </footer>
+
+    
+
+</body>
+
+</html>

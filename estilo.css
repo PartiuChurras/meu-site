@@ -1,0 +1,73 @@
+/* Estilizando o menu */
+* {
+    text-align: center;
+}
+
+.menu {
+  background-color: #333;
+  padding: 10px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Estilizando o rodapé */
+#rodape {
+  text-align: center;
+  font-style: italic;
+  padding: 20px;
+  background-color: #000000;
+
+  p {
+    color: blue;
+  }
+}
+p {
+            color: rgb(32, 0, 175);
+            text-align: center;
+        }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border: 1px solid black;
+}
+
+.destaque {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#titulo-noticias {
+    color: red;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: navy;
+}
+
+h2::after {
+    content: " ✦";
+    color: gray;
+    margin-left: 5px;
+}
+
