@@ -12,18 +12,14 @@
 </head>
 
 <body>
-
-    <nav>
-        <ul>
-            <li><a href="#edicoesdarevista">Edições</a></li>
-            <li><a href="#naoordenado">Lista Não Ordenada</a></li>
-            <li><a href="#glossario">Glossario</a></li>
-            <li><a href="#tabela">Tabela</a></li>
-        </ul>
-    </nav>
-
+<div class="grid-container">
+    <header>Header</header>
+    <nav>Navegação</nav>
+    <main>Conteúdo Principal</main>
+    <footer>Fim</footer>
+</div>
     <header>
-        <h1 style="color: navy; font-size: 28px; text-align: center;" > Tutoriais Msc </h1>
+        <h1> Tutoriais Msc </h1>
         <h2> Aprenda a jogar Msc</h2>
 
         <nav class="menu">
@@ -37,7 +33,16 @@
         </nav>
     </header>
 
-    <main>
+    <nav>
+        <ul>
+            <li><a href="#edicoesdarevista">Edições</a></li>
+            <li><a href="#naoordenado">Lista Não Ordenada</a></li>
+            <li><a href="#glossario">Glossario</a></li>
+            <li><a href="#tabela">Tabela</a></li>
+        </ul>
+    </nav>
+
+<main>   
         <section>
             <article>
                 <h3> Possiveis Localizações da Maleta sofreram alterações as Localizações antigas <s>morreram</s>!!</h3>
@@ -53,10 +58,10 @@
                             algo sem polimento, apenas <i>socos simples</i>. E mais uma Curiosidade... Os socos
                             <strong>matavam</strong> o player.
                         </p>
-                </aside>
+                </  >
             </article>
         </section>
-    </main>
+    
 
     <hr>
     
@@ -125,55 +130,56 @@
     <br>
     <br>
 
-    <form action="#" method="POST" enctype="multipart/form-data" autocomplete="on"> 
-        <fieldset>
-            <legend>Informações pessoas</legend>
-            <label for="name">Seu Nome</label>
-            <input type="text" required maxlength="50" placeholder="Digite seu nome completo"> <br>
+        <form action="#" method="POST" enctype="multipart/form-data" autocomplete="on"> 
+            <fieldset>
+                <legend>Informações pessoas</legend>
+                <label for="name">Seu Nome</label>
+                <input type="text" required maxlength="50" placeholder="Digite seu nome completo"> <br>
 
-            <label for="datadenascimento">Data de Nascimento</label>
-            <input type="date" required> <br>
+                <label for="datadenascimento">Data de Nascimento</label>
+                <input type="date" required> <br>
 
-            <label for="email">Seu Email</label>
-            <input type="email" required placeholder="Digite seu e-mail"> <br>
+                <label for="email">Seu Email</label>
+                <input type="email" required placeholder="Digite seu e-mail"> <br>
 
-            <label for="password">Sua Senha</label>
-            <input type="password" required minlength="6" placeholder="Crie sua senha"> <br>
+                <label for="password">Sua Senha</label>
+                <input type="password" required minlength="6" placeholder="Crie sua senha"> <br>
 
-            <hr>
+                <hr>
 
-            <label for="interesse">Lista de Interesses</label>
-            <select name="genedodeinteresse" id=" ">
-                <option value="tecnologia">tecnologia</option>
-                <option value="programacao">Programação</option>
-                <option value="curiosidades">Curiosidades</option>
-                <option value="jogos">Jogos</option>
-            </select> <br>
+                <label for="interesse">Lista de Interesses</label>
+                <select name="genedodeinteresse" id=" ">
+                    <option value="tecnologia">tecnologia</option>
+                    <option value="programacao">Programação</option>
+                    <option value="curiosidades">Curiosidades</option>
+                    <option value="jogos">Jogos</option>
+                </select> <br>
 
-            <label for="notificacao">Receber notificações pelo email?</label>
-                <input type="radio" name="notificacao" value="sim"> Sim
-                <input type="radio" name="notificacao" value="nao"> Não
-            <br>
+                <label for="notificacao">Receber notificações pelo email?</label>
+                    <input type="radio" name="notificacao" value="sim"> Sim
+                    <input type="radio" name="notificacao" value="nao"> Não
+                <br>
 
-            <label for="foto">Foto de Perfil</label>
-                <input type="file" accept="imagens/*">
-            
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <label for="comentario">Comentário não obrigatório.</label>
-            <textarea rows="4" cols="40" placeholder="Escreva sua opinião caso desejar" required></textarea>
+                <label for="foto">Foto de Perfil</label>
+                    <input type="file" accept="imagens/*">
+                
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <label for="comentario">Comentário não obrigatório.</label>
+                <textarea rows="4" cols="40" placeholder="Escreva sua opinião caso desejar" required></textarea>
 
-            <br>
-            <br>
-            
-            <button type="submit">Enviar Cadastro</button>
-            <button type="reset">Limpar Formulário</button>
+                <br>
+                <br>
+                
+                <button type="submit">Enviar Cadastro</button>
+                <button type="reset">Limpar Formulário</button>
 
-        </fieldset>
-    </form>
+            </fieldset>
+        </form>
+</main>
 
 
     <hr>
